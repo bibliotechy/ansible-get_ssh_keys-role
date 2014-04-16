@@ -1,6 +1,6 @@
 ---
 - name: Grab the private key from local machine
-  copy: src={{ private_key }} dest=/home/{{ ansible_ssh_user }}/.ssh/id_rsa
+  copy: src={{ private_key }} dest=/home/{{ ansible_ssh_user }}/.ssh/id_rsa owner={{ ansible_ssh_user }} group= {{ ansible_ssh_user }}
 
 - name: Grab the public key from local machine
-  copy: src={{ public_key }} dest=/home/{{ ansible_ssh_user }}/.ssh/id_rsa.pub
+  copy: src={{ public_key }} dest=/home/{{ ansible_ssh_user }}/.ssh/id_rsa.pub owner={{ ansible_ssh_user }} group= {{ ansible_ssh_user }}
