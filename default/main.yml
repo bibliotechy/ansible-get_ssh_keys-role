@@ -1,0 +1,4 @@
+---
+
+private_key: ~/.ssh/id_rsa
+public_key: ~/.ssh/id_rsa.pud

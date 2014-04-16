@@ -1,0 +1,6 @@
+---
+- name: Grab the private key from local machine
+  file: src={{ private_key }} dest=/home/{{ ansible_ssh_user }}/.ssh/id_rsa
+
+- name: Grab the public key from local machine
+  file: src={{ public_key }} dest=/home/{{ ansible_ssh_user }}/.ssh/id_rsa.pub
