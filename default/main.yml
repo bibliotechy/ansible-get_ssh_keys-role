@@ -1,4 +1,4 @@
 ---
 
-private_key: ~/.ssh/id_rsa
-public_key: ~/.ssh/id_rsa.pud
+private_key: ~/.ssh/gh_id_rsa
+public_key: ~/.ssh/gh_id_rsa.pub

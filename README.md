@@ -15,4 +15,9 @@ private_key: /path/to/your/private/key #default: ~/.ssh/id_rsa
 public_key: /path/to/your/public/key  #default: ~/.ssh/id_rsa.pub
 ```
 
+License
+---
 
+The project is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+---
